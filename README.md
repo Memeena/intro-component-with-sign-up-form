@@ -6,7 +6,6 @@ This is a solution to the [Intro component with sign up form challenge on Fronte
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -24,11 +23,6 @@ Users should be able to:
 - Receive an error message when the `form` is submitted if:
   - Any `input` field is empty. The message for this error should say *"[Field Name] cannot be empty"*
   - The email address is not formatted correctly (i.e. a correct email address should have this structure: `name@host.tld`). The message for this error should say *"Looks like this is not an email"*
-
-### Screenshot
-
-  ![](https://github.com/Memeena/Order-Summary-Component/blob/becd67a73767b9447304dc856a0904783338cdfb/Screenshot-Desktop%20Frontend%20Mentor%20Intro%20component%20with%20sign%20up%20form.png)
-  ![](https://github.com/Memeena/Order-Summary-Component/blob/becd67a73767b9447304dc856a0904783338cdfb/Screenshot-Mobile%20Frontend%20Mentor%20Intro%20component%20with%20sign%20up%20form.png)
 
 ### Links
 
