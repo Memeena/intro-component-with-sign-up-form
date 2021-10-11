@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <link rel="stylesheet" href="CSS/styles.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<main>
+  <div class="intro-component">
+    <div class="description">
+        <h1 class="heading">Learn to code by watching others</h1>
+        <p class="desc-para">
+          See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+          but understanding how developers think is invaluable. 
+        </p>
+    </div>
+
+    <div class="sign-up-form">
+        <p class="try-para">Try it free 7 days then $20/mo. thereafter</p>
+      
+        <div class="sign-up">
+            <form action="#" class="form-class">
+              
+                <div class="form-action fname">
+                    <input type="name" class="form-input" placeholder="First Name" name="firstname" id="firstname" required />
+                    <label for="firstname" class="form-label">First name</label>
+                    <img class="error-icon" src="images/icon-error.svg">
+                    <p class="error">Error message</p>
+                </div>
+          
+                <div class="form-action lname">
+                    <input type="name" class="form-input" placeholder="Last Name" name="lastname" id="lastname" required />
+                    <label for="lastname" class="form-label">Last name</label>
+                    <img class="error-icon" src="images/icon-error.svg">
+                    <p class="error">Error message</p>
+                </div>
+      
+                <div class="form-action emailid">
+      
+                    <input type="email" class="form-input" placeholder="Email Address" name="email" id="email" required />
+                    <label for="email" class="form-label">Email address</label>
+                    <p class="error">Error message</p>
+                    <img class="error-icon" src="images/icon-error.svg">
+                </div>  
+            
+                <div class="form-action pwd">
+      
+                    <input type="password" class="form-input" placeholder="Password" name="password" id="password" required />
+                    <label for="password" class="form-label">Password</label>
+                    <p class="error">Error message</p>
+                    <img class="error-icon" src="images/icon-error.svg">
+                </div>
+            
+              </form>    
+              
+              
+              <a href="#" class="claim-button btn-animated">Claim your free trial </a>
+              
+              <p class="disclaimer">By clicking the button, you are agreeing to our <span>Terms and Services</span></p>                  
+              
+        </div>
+    </div>  
+
+  </div>
+
+</main>
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Meenakshi</a>.
+    </p>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
