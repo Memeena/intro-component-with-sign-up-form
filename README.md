@@ -56,12 +56,15 @@ I learnt to use the following in this challenge.
 1. Animations using keyframes. 
 2. For the button, I have made it to move a little bit top when hovered.
 3. To trim whitespace characters, instead of using trim(), have used Regex.
+    
     let wsRegex = /^\s+|\s+$/g; // To trim whitespace characters with Regex
 
 4. For validating names, used regex to validate the name for any special characters and numbers.
+    
     const nameRegex = /^[a-z]*$/ig;
 
 5. For validating email, used the following regex.
+    
     const emailRegex =  /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
 
     The first part of the email Id can contain
@@ -75,6 +78,7 @@ I learnt to use the following in this challenge.
     3. Hyphens
     4. Dots
 6. For validating password, used the following regex.
+    
     const pwdRegex = /^(?=.*[0-9])(?=.*[!@#$%^&*])(?=.*[a-z][A-Z])[a-zA-Z0-9!@#$%^&*]{6,16}$/; //or
 
     const pwdRegex = /^(?=.*[\d])(?=.*[!@#$%^&*])(?=.*[\D])[\w!@#$%^&*]{6,16}$/; //short hand form
@@ -83,6 +87,7 @@ I learnt to use the following in this challenge.
     2. Minimum number of characters should be 6 and maximum number of characters should be 16.
 
 7. For Password, have thrown the error message based on the conditions prohibited.
+    
     if(password.length < 6 || password.length > 16){
         errorDisplay(`Password should be minimum 6 characters and maximum 16 characters`,3);
     }else if (password.search(/[0-9]/) < 0){
