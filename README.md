@@ -30,7 +30,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./https://github.com/Memeena/intro-component-with-sign-up-form/blob/f165671138368eda78404e973ce18ee27e737b2b/Screenshot-Desktop%20Frontend%20Mentor%20Intro%20component%20with%20sign%20up%20form.png)
+![](./https://github.com/Memeena/intro-component-with-sign-up-form/blob/f165671138368eda78404e973ce18ee27e737b2b/Screenshot-Mpbile%20Frontend%20Mentor%20Intro%20component%20with%20sign%20up%20form.png)
 
 ### Links
 
