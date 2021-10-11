@@ -11,10 +11,7 @@ This is a solution to the [Intro component with sign up form challenge on Fronte
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -30,8 +27,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](https://github.com/Memeena/Order-Summary-Component/blob/becd67a73767b9447304dc856a0904783338cdfb/Screenshot-Desktop%20Frontend%20Mentor%20Intro%20component%20with%20sign%20up%20form.png)
-![](https://github.com/Memeena/Order-Summary-Component/blob/becd67a73767b9447304dc856a0904783338cdfb/Screenshot-Mobile%20Frontend%20Mentor%20Intro%20component%20with%20sign%20up%20form.png)
+  ![](https://github.com/Memeena/Order-Summary-Component/blob/becd67a73767b9447304dc856a0904783338cdfb/Screenshot-Desktop%20Frontend%20Mentor%20Intro%20component%20with%20sign%20up%20form.png)
+  ![](https://github.com/Memeena/Order-Summary-Component/blob/becd67a73767b9447304dc856a0904783338cdfb/Screenshot-Mobile%20Frontend%20Mentor%20Intro%20component%20with%20sign%20up%20form.png)
 
 ### Links
 
